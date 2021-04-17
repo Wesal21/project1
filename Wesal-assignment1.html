@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS Selectors Exercise</title>
+    <style>
+       .green{
+           color: green;
+       }
+      .blue {
+           color:blue;
+       }
+       .red{
+           color: red;
+       }
+       .purple{
+           color: purple;
+       }
+       .dark-pink{
+           color: #ba296b
+           ;
+
+       }
+       light-blue{
+           color: #efefef;
+       }
+       .cold-blue{
+           color: #b7def0;
+       }
+       .orange{
+           color: orange;
+       }
+       
+    </style>
+</head>
+<body>
+<h1 class="green">About</h1>
+<p>It can be intimidating for women to learn and ask questions when they are in an <strong class="orange">extreme minority</strong>. While open and welcoming, today's budding developer community is up to <strong>91% male</strong>. If we can empower more females with the confidence in their technological capabilities <em class="orange">we can begin to change this landscape</em>.
+</p>
+<h2 class="green">Our Locations</h2>
+<ul>
+    <li>USA
+        <ul>
+            <li class="red"><a class="blue" href="">New York</a></li>
+            <li class="red"><a  class="blue" href="">Columbus</a></li>
+            <li class="red"><a class="blue" href="">Austin</a></li>
+            <li class="red"><a class="blue" href="">Philly</a></li>
+        </ul>
+    </li>
+    <li>World
+        <ul>
+            <li class="red"><a  class="blue" href="">Ottawa</a></li>
+            <li class="red"><a class="blue" href="">Sydney</a></li>
+        </ul>
+    </li>
+</ul>
+
+<h2 class="green">Upcoming Classes</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Location</th>
+        <th>Topic</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="blue">New York</td>
+        <td class="purple"> JavaScript &amp; jQuery</td>
+    </tr>
+    <tr>
+        <td class="blue">San Francisco</td>
+        <td class="purple">HTML &amp; CSS</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2 class="green">Sign Up!</h2>
+<form action="" method="post">
+    <label class="dark-pink">Name: <input name="name" type="text"></label>
+    <br>
+    <label class="dark-pink" >Email: <input name="email" type="email"></label>
+    
+    <br>
+    <label class="dark-pink">Location:
+        <select  name="location">
+            <option value="sf">San Francisco</option>
+            <option value="nyc">New York</option>
+        </select></label>
+    <br>
+    <fieldset>
+        <legend class="dark-pink">Gender:</legend>
+        <label class="dark-pink" for="female">Female</label>
+        <input  class="dark-pink"  type="radio" name="gender" id="female" value="female">
+        <label class="dark-pink" for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+    </fieldset>
+    <br>
+    <label class="dark-pink" >Experience:
+        <br>
+        <textarea class="dark-pink" name="experience"></textarea>
+    </label>
+    <br>
+    <button  class="light-blue" type="submit">Sign Up</button>
+</form>
+
+<br><br>
+<a  class="cold-blue" href="">Twitter</a> | <a class="blue" href="">Facebook</a> | <a class="blue" href="">Flickr</a>
+
+</body>
+</html>
